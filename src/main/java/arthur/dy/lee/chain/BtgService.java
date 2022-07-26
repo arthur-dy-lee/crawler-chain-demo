@@ -17,7 +17,7 @@ import java.util.Map;
 public class BtgService {
 
     public static BigDecimal getBalance() throws IllegalAccessException {
-        String url = "https://explorer.bitcoingold.org/insight-api/addr/GSaD2wEbmsz2x14mmshY477bXERUTtDS8S/?noTxList=1";
+        String url = "`https://explorer.bitcoingold.org/insight-api/addr/GSaD2wEbmsz2x14mmshY477bXERUTtDS8S/?noTxList=1";
 
         Map<String, Object> map = new HashMap<>();
         map.put("addr", "1FRtceDPtWUdUtbT49b1phAvojGdGbpQgr");
